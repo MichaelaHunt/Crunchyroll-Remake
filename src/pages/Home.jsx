@@ -3,7 +3,7 @@ import WeeklySchedule from "../components/weeklySchedule";
 function Home() {
     return(
         <>
-            <div>
+            <div className="page">
                 <WeeklySchedule></WeeklySchedule>
             </div>
         </>

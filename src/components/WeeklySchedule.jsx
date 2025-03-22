@@ -1,10 +1,17 @@
 import WeeklyScheduleItem from "./weeklyScheduleItem";
-
+import './WeeklySchedule.css';
 //currently hard-coded
+/*
+short term goal: 
+when you click on the different dates, it underlines the date you clicked on
+
+Long term goal: 
+when you click on the different dates, it displays a different schedule associated with that date
+*/
 function WeeklySchedule() {
     return (
         <>
-            <div>
+            <div className="body">
                 <ul id="week-info">
                     <li>
                         <h3 className="dates">26</h3>
@@ -36,7 +43,14 @@ function WeeklySchedule() {
                     </li>
                 </ul>
             </div>
-            <div className="container">
+            <div className="container scrollContainer">
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
+                <WeeklyScheduleItem></WeeklyScheduleItem>
                 <WeeklyScheduleItem></WeeklyScheduleItem>
             </div>
         </>

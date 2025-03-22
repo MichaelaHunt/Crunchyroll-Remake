@@ -1,4 +1,5 @@
 import Image from '../assets/images/aot.webp';
+import './WeeklySchedule.css';
 
 function WeeklyScheduleItem() {
     return (
