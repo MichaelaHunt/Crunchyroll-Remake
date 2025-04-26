@@ -1,0 +1,30 @@
+.navContainer {
+    background-color: var(--item-grey);
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navCategories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 0%;
+}
+
+.navCategories > * {
+    margin: 0 16px;
+}
+
+.navCategories > h3 {
+    color: var(--orange-accent);
+    margin-left: 32px;
+}
+
+.navUser {
+    margin-right: 48px;
+    font-size: 22px;
+    align-items: center;
+    line-height: 0%;
+}

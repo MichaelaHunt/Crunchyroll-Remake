@@ -1,3 +1,5 @@
+import './Navigation.css';
+
 function Navigation() {
     return (
         <>
@@ -9,8 +11,8 @@ function Navigation() {
                     <h4>Watchlist</h4>
                     <h4>Subscribed</h4>
                 </div>
-                <div className="User">
-                    <i></i>
+                <div className="navUser">
+                    <i className="fa-solid fa-circle-user"></i>
                 </div>
             </div>
         </>

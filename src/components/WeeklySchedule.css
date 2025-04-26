@@ -18,13 +18,13 @@
 
 .dates {
     color: #b8b8b8;
-    font-size: 28px;
+    font-size: 20px;
     margin-bottom: 16px;
 }
 
 .weekdayNames {
     color: white;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .container {
@@ -34,9 +34,9 @@
 
 .item {
     width: 265px;
-    height: 415px;
+    height: 390px;
     flex-shrink: 0;
-    background-color: var(--item-grey);
+    /* background-color: var(--item-grey); */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -58,18 +58,17 @@
 
 .item>div {
     margin-bottom: 16px;
-    height: 48px;
     display: flex;
     align-items: center;
 }
 
 #title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .item>h4 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 200;
 }
 
